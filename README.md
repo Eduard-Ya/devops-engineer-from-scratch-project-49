@@ -10,3 +10,13 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Eduard-Ya_devops-engineer-from-scratch-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Eduard-Ya_devops-engineer-from-scratch-project-49)
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Eduard-Ya/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Eduard-Ya/devops-engineer-from-scratch-project-49/actions)
+
+https://asciinema.org/a/GIF8t3Ziwx1E5O4a
+
+https://asciinema.org/a/EvXuo9FoY1EbhuaJ
+
+https://asciinema.org/a/oHLYJbonJ34H27CW
+
+https://asciinema.org/a/MiHpLWP3QXELaBZG
+
+https://asciinema.org/a/pmsfYCAIHJGoywmf
