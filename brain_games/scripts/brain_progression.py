@@ -2,7 +2,7 @@ import random
 from brain_games import engine
 
 
-### Генерация арефмитической прогрессии
+# Генерация арефмитической прогрессии
 def generate_progression(start, step, length):
     progression = []
     for i in range(length):
@@ -10,7 +10,7 @@ def generate_progression(start, step, length):
     return progression
 
 
-### Генерация раундов
+# Генерация раундов
 def generate_round():
     start = random.randint(1, 20)
     step = random.randint(1, 10)
@@ -36,7 +36,7 @@ def generate_round():
     return question, str(correct_answer)
 
 
-### Старт игры
+# Старт игры
 def main():
     rules = "What number is missing in the progression?"
     engine.run_game(rules, generate_round)

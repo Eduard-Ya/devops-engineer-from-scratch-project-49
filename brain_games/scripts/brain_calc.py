@@ -2,7 +2,7 @@ import random
 from brain_games import engine
 
 
-### вычисление на основе операции
+# вычисление на основе операции
 def calculate(num1, num2, operation):
     if operation == '+':
         return num1 + num2
@@ -14,7 +14,7 @@ def calculate(num1, num2, operation):
         raise ValueError(f'Unknown operation: {operation}')
 
 
-### Генерация раундов
+# Генерация раундов
 def generate_round():
     num1 = random.randint(1, 50)
     num2 = random.randint(1, 50)
@@ -26,7 +26,7 @@ def generate_round():
     return question, str(correct_answer)
 
 
-### Старт игры 
+# Старт игры 
 def main():
     rules = 'What is the result of the expression?'
     engine.run_game(rules, generate_round)

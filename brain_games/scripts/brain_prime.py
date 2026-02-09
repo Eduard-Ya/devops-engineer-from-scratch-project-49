@@ -2,7 +2,7 @@ import random
 from brain_games import engine
 
 
-### Проверяем простое ли число 
+# Проверяем простое ли число 
 def is_prime(n):
     if n < 2:
         return False
@@ -21,7 +21,7 @@ def is_prime(n):
     return True
 
 
-### Генерация раундов
+# Генерация раундов
 def generate_round():
     # Генерируем число от 1 до 100 (можно изменить диапазон)
     number = random.randint(1, 100)
@@ -32,7 +32,7 @@ def generate_round():
     return question, correct_answer
 
 
-### Старт игры 
+# Старт игры 
 def main():
     rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     engine.run_game(rules, generate_round)

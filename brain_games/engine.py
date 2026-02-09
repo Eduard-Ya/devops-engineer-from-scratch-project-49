@@ -1,7 +1,7 @@
 import prompt
 
 
-### Запуск игры с задаными правилами
+# Запуск игры с задаными правилами
 def run_game(rules, generate_round):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
