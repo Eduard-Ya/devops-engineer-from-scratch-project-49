@@ -38,7 +38,7 @@ def generate_round():
 
 ### Старт игры
 def main():
-    rules = 'What number is missing in the progression?'
+    rules = "What number is missing in the progression?"
     engine.run_game(rules, generate_round)
 
 

@@ -17,7 +17,7 @@ def generate_round():
 
 ### Старт игры
 def main():
-    rules = "Нужно ответить 'yes', если число чётное, или 'no' — если нечётное"
+    rules = "Answer 'yes' if the number is even, otherwise answer 'no'."
     engine.run_game(rules, generate_round)
 
 
