@@ -1,11 +1,10 @@
 import prompt
+from brain_games.cli import welcome_user
 
 
 # Запуск игры с задаными правилами
 def run_game(rules, generate_round):
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = welcome_user()
     print(rules)
 
     rounds_count = 3
