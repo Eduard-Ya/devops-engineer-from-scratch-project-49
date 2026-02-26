@@ -1,0 +1,14 @@
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.cast
+*.gif
+coverage.xml
+.pytest_cache/
+.hypothesis/
+.vscode/
+.idea/
+*.swp
+
