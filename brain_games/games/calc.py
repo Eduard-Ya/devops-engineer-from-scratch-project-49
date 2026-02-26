@@ -16,6 +16,7 @@ def calculate(num1, num2, operation):
 
 # Генерация раундов
 def generate_round():
+    # NOSONAR
     num1 = random.randint(1, 50)
     num2 = random.randint(1, 50)
     operation = random.choice(['+', '-', '*'])
