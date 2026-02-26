@@ -11,12 +11,35 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Eduard-Ya/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Eduard-Ya/devops-engineer-from-scratch-project-49/actions)
 
-https://asciinema.org/a/GIF8t3Ziwx1E5O4a
 
-https://asciinema.org/a/EvXuo9FoY1EbhuaJ
+### Набор из пяти игр в каждой из которых нужно дать правильный ответ на три вопроса.
 
-https://asciinema.org/a/oHLYJbonJ34H27CW
+### Требования
 
-https://asciinema.org/a/MiHpLWP3QXELaBZG
+- Python версии 3.12 или выше
+- pip (менеджер пакетов Python)
 
-https://asciinema.org/a/pmsfYCAIHJGoywmf
+### Инструкция по установке
+
+клонируйте репозиторий:
+git clone https://github.com/Eduard-Ya/devops-engineer-from-scratch-project-49.git
+
+установите пип
+pip install -e . 
+
+После установки станут доступны команды для запуска игр
+
+brain-even - проверка на четность
+[![asciicast](https://asciinema.org/a/GIF8t3Ziwx1E5O4a.svg)](https://asciinema.org/a/GIF8t3Ziwx1E5O4a)
+
+brain-calc - калькулятор
+[![asciicast](https://asciinema.org/a/EvXuo9FoY1EbhuaJ.svg)](https://asciinema.org/a/EvXuo9FoY1EbhuaJ)
+
+brain-gcd - наибольший общий делитель
+[![asciicast](https://asciinema.org/a/oHLYJbonJ34H27CW.svg)](https://asciinema.org/a/oHLYJbonJ34H27CW)
+
+brain-progression - арифметическая прогрессия
+[![asciicast](https://asciinema.org/a/MiHpLWP3QXELaBZG.svg)](https://asciinema.org/a/MiHpLWP3QXELaBZG)
+
+brain-prime - простые числа
+[![asciicast](https://asciinema.org/a/pmsfYCAIHJGoywmf.svg)](https://asciinema.org/a/pmsfYCAIHJGoywmf)
