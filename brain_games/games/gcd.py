@@ -1,4 +1,4 @@
-import random
+import secrets
 
 RULES = 'Find the greatest common divisor of given numbers.'
 
@@ -12,8 +12,8 @@ def gcd(a, b):
 
 # Генерация раундов
 def generate_round():
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
+    num1 = secrets.randbelow(100) + 1
+    num2 = secrets.randbelow(100) + 1
     
     question = f'{num1} {num2}'
     correct_answer = gcd(num1, num2)

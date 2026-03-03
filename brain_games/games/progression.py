@@ -1,4 +1,4 @@
-import random
+import secrets
 
 RULES = 'What number is missing in the progression?'
 
@@ -13,15 +13,15 @@ def generate_progression(start, step, length):
 
 # Генерация раундов
 def generate_round():
-    start = random.randint(1, 20)
-    step = random.randint(1, 10)
-    length = random.randint(5, 10)  # от 5 до 10 элементов
+    start = secrets.randbelow(20) + 1 
+    step = secrets.randbelow(10) + 1
+    length = secrets.randbelow(6) + 5 # от 5 до 10 элементов
     
     # Создаем прогрессию
     progression = generate_progression(start, step, length)
     
     # Выбираем случайную позицию для скрытого элемента
-    hidden_index = random.randint(0, length - 1)
+    hidden_index = secrets.randbelow(length)
     correct_answer = progression[hidden_index]
     
     # Создаем строку вопроса с ".." вместо скрытого элемента

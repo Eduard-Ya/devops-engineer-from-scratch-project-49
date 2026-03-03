@@ -1,4 +1,4 @@
-import random
+import secrets
 
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -25,7 +25,7 @@ def is_prime(n):
 # Генерация раундов
 def generate_round():
     # Генерируем число от 1 до 100 (можно изменить диапазон)
-    number = random.randint(1, 100)
+    number = secrets.randbelow(100) + 1
     
     question = str(number)
     correct_answer = 'yes' if is_prime(number) else 'no'

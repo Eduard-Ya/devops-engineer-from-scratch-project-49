@@ -1,4 +1,4 @@
-import random
+import secrets
 
 RULES = 'What is the result of the expression?'
 
@@ -16,10 +16,9 @@ def calculate(num1, num2, operation):
 
 # Генерация раундов
 def generate_round():
-    # NOSONAR
-    num1 = random.randint(1, 50)
-    num2 = random.randint(1, 50)
-    operation = random.choice(['+', '-', '*'])
+    num1 = secrets.randbelow(50) + 1
+    num2 = secrets.randbelow(50) + 1
+    operation = secrets.choice(['+', '-', '*'])
     
     question = f'{num1} {operation} {num2}'
     correct_answer = calculate(num1, num2, operation)
