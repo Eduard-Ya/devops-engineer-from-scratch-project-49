@@ -15,7 +15,7 @@ def generate_progression(start, step, length):
 def generate_round():
     start = secrets.randbelow(20) + 1 
     step = secrets.randbelow(10) + 1
-    length = secrets.randbelow(6) + 5 # от 5 до 10 элементов
+    length = secrets.randbelow(6) + 5  # от 5 до 10 элементов
     
     # Создаем прогрессию
     progression = generate_progression(start, step, length)

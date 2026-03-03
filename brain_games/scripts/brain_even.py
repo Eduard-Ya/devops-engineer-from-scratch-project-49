@@ -2,8 +2,8 @@ from brain_games.engine import run_game
 from brain_games.games import even
 
 
+# Старт игры
 def main():
-    """Start the Even game."""
     run_game(even.RULES, even.generate_round)
 
 

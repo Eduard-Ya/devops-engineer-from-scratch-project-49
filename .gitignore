@@ -11,4 +11,12 @@ coverage.xml
 .vscode/
 .idea/
 *.swp
-
+demo.sh
+main.py
+uv.lo
+build/
+*.egg-info/
+.ruff_cache/
+session.cast
+uv.lock
+dist/
